@@ -24,7 +24,7 @@ def assembled_matrix
   
     Produce_storage_room = [
       ORGANIC_PRODUCE,
-      CONVENTIONAL_PRODUCE
+      CONVENTIONAL_PRODUCE,
     ]
   
 end
