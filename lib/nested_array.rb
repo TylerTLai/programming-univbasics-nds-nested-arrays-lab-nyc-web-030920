@@ -21,7 +21,6 @@ def assembled_matrix
 end
 
 def sorted_matrix
-
   [[
   "Grapefruit",
   "Pineapple",
@@ -41,7 +40,6 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-
   matrix[row][column]
 end
 
@@ -49,4 +47,7 @@ def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
+  matrix[row][column] = new_value
+  matrix
+  
 end
